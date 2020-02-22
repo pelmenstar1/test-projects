@@ -12,6 +12,6 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding String, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBox Text="{Binding String, Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 </Window>

@@ -13,7 +13,7 @@ namespace AvaloniaBindingTest.ViewModels
             get => _str;
             set
             {
-                if (_str != null && _str.Length > 0 && _str[0] == '#' && _str.Length <= 5)
+                if (value != null && value.Length > 0 && value[0] == '#' && value.Length <= 5)
                 {
                     _str = value;
                 }
